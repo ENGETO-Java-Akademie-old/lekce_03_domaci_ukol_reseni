@@ -35,7 +35,10 @@ Trida `Polozka`
 #### Metody
 
 Ukažtě počet objednávek - `Integer pocetObjednavek(List<Objednavka> objednavky)`
+
 Spočítejte celkovou cenu útraty - `Integer celkovaUtrata(List<Objednavka> objednavky)`
+
 Na základě jména položky spočítejte celkový prodej dané položky - `Integer pocetObjednavek(List<Objednavka> objednavky, String polozka)`
+
 Na základě čísla stolu, spočítejte útratu u daného stolu - `Integer pocetObjednavek(List<Objednavka> objednavky, Integer cisloStolu)`
 
