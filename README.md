@@ -20,6 +20,7 @@ Trida `Objednavka`
 - Poradi - `Integer poradi`
 - Cislo stolu - `Integer cislo stolu`
 - Cas objednavky - `LocalDateTime casObjednavky`
+- Typ platby - `TypPlatby typPlatby`
 - List Polozek - `ArrayList<Polozka> polozky`
 
 Enum `TypPlatby`
@@ -34,11 +35,11 @@ Trida `Polozka`
 
 #### Metody
 
-Ukažtě počet objednávek - `Integer pocetObjednavek(List<Objednavka> objednavky)`
+Ukažtě počet objednávek - `Integer pocetObjednavek()`
 
-Spočítejte celkovou cenu útraty - `Integer celkovaUtrata(List<Objednavka> objednavky)`
+Spočítejte celkovou cenu útraty - `Integer celkovaUtrata()`
 
-Na základě jména položky spočítejte celkový prodej dané položky - `Integer pocetObjednavek(List<Objednavka> objednavky, String polozka)`
+Na základě jména položky spočítejte celkový prodej dané položky - `Integer prodejPolozky(String polozka)`
 
-Na základě čísla stolu, spočítejte útratu u daného stolu - `Integer pocetObjednavek(List<Objednavka> objednavky, Integer cisloStolu)`
+Na základě čísla stolu, spočítejte útratu u daného stolu - `Integer utrataStolu(Integer cisloStolu)`
 
